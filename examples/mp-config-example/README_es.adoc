@@ -68,3 +68,5 @@ public String getJavaVersionPropertyFromSystemProperties() {
     return config.getValue("java.runtime.version", String.class);
 }
 ----
+
+Podemos utilizar el `microprofile-config.properties` que se debe crear en la carpeta META-INF para obtener los valores de este archivo, utilizando algunos de los 3 descritos anteriormente. 
